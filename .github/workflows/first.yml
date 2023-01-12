@@ -1,6 +1,6 @@
 name: first
 
-on: push
+# on: push
 
 jobs:
     job1:
@@ -13,7 +13,7 @@ jobs:
             run: env | sort
           - name: Step 3
             run: date
-            
+
     job2:
         name: Second Job
         runs-on: windows-latest
